@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+:root{
+    --AccentColour: rgb(68, 192, 253);
+}
+
+/* style="background: url(./assets/image/francisco-venancio-M4Xloxsg0Gw-unsplash.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;" */
+
+/* style="background-image: url(./assets/image/francisco-venancio-M4Xloxsg0Gw-unsplash.jpg); background-position: center; background-size: cover; aspect-ratio: 1.5; animation: bgslider .5s ease-in-out linear; */
+
+/* #0f9b0f */
+
+.gradient{
+  background: #06beb6;   /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* @keyframes bgslider{
+  0%, 100%{
+    background-image: url(./assets/image/piron-guillaume-kJwZxH6jins-unsplash.jpg);
+  }
+  25%{
+    background-image: url(./assets/image/towfiqu-barbhuiya-FsVEqeiOtPo-unsplash.jpg);
+  }
+  50%{
+    background-image: url(./assets/image/tareq-ajalyakin-Ig1YHgmJrnQ-unsplash.jpg);
+  }
+  75%{
+    background-image: url(./assets/image/jeremy-alford-O13B7suRG4A-unsplash.jpg);
+  }
+} */
+
+@layer base{
+
+    .buttonSolidBlue{
+        @apply  bg-blue-600 text-slate-50 px-4 py-2 rounded-xl cursor-pointer hover:bg-blue-500 transition-all
+    }
+    .buttonSolidWhite{
+        @apply text-xl bg-slate-50 text-blue-600 p-4 border-2 border-slate-50 rounded-xl hover:bg-blue-500 hover:text-slate-50 transition-all
+    }
+    .buttonOutlineWhite{
+        @apply text-xl bg-transparent text-slate-50 p-4 rounded-xl border-2 border-solid border-slate-50 hover:bg-blue-500 hover:text-slate-50 transition-all
+    }
+    .buttonOutlineBlue{
+        @apply text-xl bg-transparent text-blue-600 p-4 rounded-xl
+    }
+}
+/* Hamburger menu */
+.show{
+  left: 0;
+}
+/* Hamburger Menu */
+
+/*  ServicePop*/
+
+/* body{
+  position: relative;
+}
+
+.servicePop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #06beb6;
+} */
+
+/* Services */
+
+
+/* Services */
+
+
+/* FAQS */
+.faqsBox .answer,
+.faqsBox .faqsArrow{
+    transition: all .4s ease;
+}
+
+.faqsBox.active .question{
+    font-weight: 600;
+}
+
+.faqsBox.active .answer{
+    padding: 1rem;
+    height: auto;
+}
+.faqsBox.active .faqsArrow{
+    transform: rotate(50deg);
+}
+/*  */
+
+.navmobile.popmenu{
+    display: block;
+}
+
+.icon .fa-times,.icon.times .fa-align-left{
+    display: none;
+}
+.icon.times .fa-times{
+    display: block;
+}
+
+
+
+
+
+
+
+/* <!-- ABout Obstetrics and Gynaecology -->
+<div class="bg-slate-50 p-2">
+  <div class="">
+    <img src="" alt="">
+  </div>
+  <div class="space-y-4 mb-2">
+    <h2 class="font-bold text-gray-700">OBSTRICS AND GYNAECOLOGY</h2>
+    <p>The department of obstetrics and gynaecology focuses on the improved healthcare for women before, during or after pregnancy. We run efficient Antenatal programmes that covers ...</p>
+  </div>
+  <div class="space-y-4 mb-2">
+    <h2 class="font-bold text-gray-700">CLINIC DAYS</h2>
+    <p>Alpha specialist hospital run a focused antenatal programme for our obstetrics outpatients. To book an appoint ment with us, click here: <a href="#Contacts" class="text-blue-700">Contact Us</a></p>
+  </div>
+  <div class="space-y-4 mb-2">
+    <h2 class="font-bold text-gray-700">FACILITIES</h2>
+    <p>OBS/GYN department is well endowed with Dr. Abdulmalik [MBBS, MSc, MPH, FWACS]. We operate at the updated international standard with reliable doctors and facilities. to check our facilities, click <a href="#Facilities" class="text-blue-700">Facilities</a></p>
+  </div>
+</div> */
