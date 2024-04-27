@@ -181,17 +181,14 @@
     display: block;
 }
 
-/* #serviceDetails{
-  display: none;
+
+
+#serviceDetails{
+  transform: translateY(0px);
+  /* display: none; */
 }
 
-#serviceInfo:hover + #serviceDetails{
-  display: flex;
+/* .reveal{
+  transform: translateY(-320px);
+  display: block;
 } */
-
-.reveal{
-  display: flex;
-  overflow: visible;
-  left: 0;
-  transform: translateX(0);
-}

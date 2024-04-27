@@ -41,20 +41,22 @@ for (let i = 0; i < faqsAccordion.length; i++){
 
 // SERVICES
 
-let serviceInfoBtn = document.querySelectorAll("#serviceInfo");
+let serviceInfoBtn = document.getElementById("serviceInfo");
 let serviceDetails = document.getElementById("serviceDetails");
 let removeServiceDetails = document.getElementById("removeServiceDetails");
 
-// serviceInfoBtn.addEventListener("click", ()=>{
-//     serviceDetails.style.display = "flex";
-// });
 
-serviceInfoBtn.forEach(btn = ()=>{
-    btn.addEventListener("click", ()=>{
-        serviceDetails.classList.add("reveal")
-    });
+serviceInfoBtn.addEventListener("click", ()=>{
+    // serviceDetails.style.display = "block"
+    serviceDetails.style.transform = "translateY(-320px)"
+    console.log(234)
 })
-
 removeServiceDetails.addEventListener("click", ()=>{
-    serviceDetails.classList.remove("reveal")
+    serviceDetails.style.transform = "translateY(0px)"
+    console.log(234)
 })
+
+
+// removeServiceDetails.addEventListener("click", ()=>{
+//     serviceDetails.classList.remove("reveal")
+// })
