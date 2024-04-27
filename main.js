@@ -37,3 +37,24 @@ for (let i = 0; i < faqsAccordion.length; i++){
 }
 
 // FAQS END
+
+
+// SERVICES
+
+let serviceInfoBtn = document.querySelectorAll("#serviceInfo");
+let serviceDetails = document.getElementById("serviceDetails");
+let removeServiceDetails = document.getElementById("removeServiceDetails");
+
+// serviceInfoBtn.addEventListener("click", ()=>{
+//     serviceDetails.style.display = "flex";
+// });
+
+serviceInfoBtn.forEach(btn = ()=>{
+    btn.addEventListener("click", ()=>{
+        serviceDetails.classList.add("reveal")
+    });
+})
+
+removeServiceDetails.addEventListener("click", ()=>{
+    serviceDetails.classList.remove("reveal")
+})

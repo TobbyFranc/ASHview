@@ -181,27 +181,17 @@
     display: block;
 }
 
+/* #serviceDetails{
+  display: none;
+}
 
+#serviceInfo:hover + #serviceDetails{
+  display: flex;
+} */
 
-
-
-
-
-/* <!-- ABout Obstetrics and Gynaecology -->
-<div class="bg-slate-50 p-2">
-  <div class="">
-    <img src="" alt="">
-  </div>
-  <div class="space-y-4 mb-2">
-    <h2 class="font-bold text-gray-700">OBSTRICS AND GYNAECOLOGY</h2>
-    <p>The department of obstetrics and gynaecology focuses on the improved healthcare for women before, during or after pregnancy. We run efficient Antenatal programmes that covers ...</p>
-  </div>
-  <div class="space-y-4 mb-2">
-    <h2 class="font-bold text-gray-700">CLINIC DAYS</h2>
-    <p>Alpha specialist hospital run a focused antenatal programme for our obstetrics outpatients. To book an appoint ment with us, click here: <a href="#Contacts" class="text-blue-700">Contact Us</a></p>
-  </div>
-  <div class="space-y-4 mb-2">
-    <h2 class="font-bold text-gray-700">FACILITIES</h2>
-    <p>OBS/GYN department is well endowed with Dr. Abdulmalik [MBBS, MSc, MPH, FWACS]. We operate at the updated international standard with reliable doctors and facilities. to check our facilities, click <a href="#Facilities" class="text-blue-700">Facilities</a></p>
-  </div>
-</div> */
+.reveal{
+  display: flex;
+  overflow: visible;
+  left: 0;
+  transform: translateX(0);
+}
