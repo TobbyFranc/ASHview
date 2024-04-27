@@ -830,6 +830,10 @@ video {
   width: 100%;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .max-w-\[1140px\] {
   max-width: 1140px;
 }
@@ -1002,6 +1006,10 @@ video {
 
 .border-l-4 {
   border-left-width: 4px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-blue-200 {
