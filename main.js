@@ -47,11 +47,6 @@ let serviceDetails = document.getElementById("serviceDetails");
 let removeServiceDetails = document.getElementById("removeServiceDetails");
 
 
-// serviceInfoBtn.addEventListener("click", ()=>{
-//     serviceDetails.style.transform = "translateY(-320px)"
-//     console.log(234)
-// })
-
 
 serviceInfoBtn.forEach(infoBtn => {
     infoBtn.addEventListener("click", ()=>{
@@ -63,3 +58,9 @@ removeServiceDetails.addEventListener("click", ()=>{
     serviceDetails.style.transform = "translateY(0px)"
     console.log(234)
 })
+
+
+
+
+// SWIPER JS
+
