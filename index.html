@@ -23,11 +23,11 @@
             </div>
             <!-- logo -->
             <ul class="hidden md:flex justify-between items-center h-full">
-                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="/">Home</a></li>
-                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="/">About Us</a></li>
-                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="/">Our Services</a></li>
-                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="/">The Team</a></li>
-                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="/">Testimony</a></li>
+                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="#Home">Home</a></li>
+                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="#About">About Us</a></li>
+                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="#Services">Our Services</a></li>
+                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="#Team">The Team</a></li>
+                <li class="hover:text-blue-400 mx-4 h-full flex justify-center items-center text-slate-600"><a href="#Testimony">Testimony</a></li>
             </ul>
             <div class="flex justify-between items-center">
                 <button class="buttonSolidBlue">Contact Us</button>
@@ -55,8 +55,8 @@
     <!-- Header -->
 
     <!--  -->
-    <div class="w-full h-[220px] bg-blue-900 relative flex items-end justify-center">
-        <img src="./assets/image/hush-naidoo-jade-photography-ZCO_5Y29s8k-unsplash.jpg" alt="" class="absolute w-full h-[220px] object-cover mix-blend-overlay">
+    <div id="Home" class="w-full h-[220px] bg-blue-900 relative flex items-end justify-center">
+        <!-- <img src="./assets/image/hush-naidoo-jade-photography-ZCO_5Y29s8k-unsplash.jpg" alt="" class="absolute w-full h-[220px] object-cover mix-blend-overlay"> -->
         <div class="flex flex-col justify-between items-center">
             <img src="./assets/icon/hospital(1).svg" alt="" class="w-12 ">
             <h1 class="text-3xl md:text-4xl lg:text-6xl text-slate-100 pb-1 font-bold montserrat-alternates-bold text-center">ALPHA <span class="">SPECIALIST</span> HOSPITAL</h1>
@@ -147,7 +147,7 @@
     <!-- END OF HERO SECTION -->
 
     <!-- START ABOUT SECTION -->
-    <section class="w-full min-h-screen bg-slate-900 relative pb-3" >
+    <section id="About" class="w-full min-h-screen bg-slate-900 relative pb-3" >
         <div class="w-full h-full absolute">
             <img src="./assets/image/francisco-venancio-M4Xloxsg0Gw-unsplash.jpg" alt="" class="w-full h-full object-cover mix-blend-overlay">
         </div>
@@ -195,7 +195,7 @@
     <!-- ABOUT SECTION END -->
 
     <!-- START OUR SERVICES SECTION -->
-    <section class="w-full min-h-screen">
+    <section id="Services" class="w-full min-h-screen">
         <div class="w-full max-w-[1240px] mx-auto h-full py-12">
             <div class="py-3 text-center w-auto flex justify-center items-center mb-2">
                 <h3 class="text-xl font-semibold border-b-2 border-b-yellow-500 ">Our Services</h3>
@@ -226,7 +226,7 @@
                     <div id="serviceDetails" class="duration-700 ease-in-out transition-transform bg-teal-900 w-full md:w-72 h-[320px] rounded-md text-center overflow-hidden">
                         <div class="h-full w-full flex flex-col justify-center bg-teal-900 text-slate-50 bg-center bg-no-repeat bg-cover bg-blend-multiply" style="background-image: url(./assets/image/hush-naidoo-jade-photography-ZCO_5Y29s8k-unsplash.jpg);">
                             <div id="title" class="text-start pl-2">
-                                <p class="text-md mt-2 border-l-2 border-l-orange-600 pl-2">OBSTETRICS & GYNAECOLOGY</p>
+                                <p class="text-md mt-2 border-l-2 border-l-orange-600 pl-2">INTERNAL MEDICINE</p>
                                 <p class="pt-1 px-1 text-sm">We offer access to the best internal medicine services kdkdk ksdksm ksdlsl</p>
                             </div>
                             <div class="text-start pl-2 mb-2">
@@ -520,7 +520,7 @@
         </div>
     </section>
     <!-- END OUR SERVICES SECTION -->
-    <!-- FLAG SECTION START -->
+    <!--INFO CARD FLAG SECTION START -->
     <section class="w-full my-12">
         <div class="w-full max-w-[1040px] round mx-auto  relative overflow-hidden drop-shadow-md">
             <!-- <video src="./assets/video/Liver Biopsy.mp4" autoplay class="absolute w-full max-h-full max-w-[1040px] "></video> -->
@@ -535,9 +535,9 @@
             </div>
         </div>
     </section>
-    <!-- TEAM SECTION END -->
+    <!-- INFOCARD FLAG SECTION END -->
 
-    <!-- THE BEST PART -->
+    <!-- THE id="Home" PART -->
     <section class="w-full">
         <div class="w-full">
             <!-- cmd introduction -->
@@ -582,8 +582,9 @@
             <div class=""></div>
         </div>
     </section>
+
     <!-- THE TEAM SECTION ENDS -->
-    <section class="w-full min-h-screen bg-slate-100  my-12">
+    <section id="Team" class="w-full min-h-screen bg-slate-100  my-12">
         <div class="w-full max-w-[1040px] min-h-screen  mx-auto">
             <div class="py-3 text-center w-auto flex justify-center items-center mb-2">
                 <h3 class="text-xl font-semibold border-b-2 border-b-yellow-500 text-slate-600">Meet Our Team of Doctors</h3>
@@ -594,7 +595,7 @@
             <div class="mt-12 swiper">
                 <div class="flex items-center overflow-x-scroll space-x-6 scroll-smooth swiper-wrapper" style="scroll-padding: 20px; scrollbar-width: none;">
                     <!-- each doctor card -->
-                    <div class="min-w-[300px]  h-[400px] flex flex-col justify-between rounded-md bg-slate-50 overflow-hidden swiper-slide">
+                    <div class="min-w-[300px]  h-[400px] flex flex-col justify-between rounded-md bg-slate-50 overflow-hidden swiper-slide shadow-md">
                         <div class="h-[350px]" style="background: url(./assets/image/jeremy-alford-O13B7suRG4A-unsplash.jpg); background-repeat: no-repeat; background-position: top; background-size:cover; object-fit: contain;">
                         </div>
                         <div class=" bg-slate-50  py-3 px-2 rounded-tr-[40%] shadow-inner -mt-[4vw] montserrat-alternates-regular-italic">
@@ -822,17 +823,32 @@
     </section>
     <!-- END OUR FAQ SECTION -->
 
-
     <!-- START OUR Footer SECTION -->
     <section class="w-full bg-blue-600">
-        <div class="w-full max-w-[1040px]  text-slate-50 mx-auto grid sm:grid-cols-2 md:grid-cols-3 ">
-            <div class="sm:flex">
+        <div class="w-full max-w-[1040px]  text-slate-50 mx-auto flex flex-col justify-between items-center md:flex-row ">
+            <div class="flex flex-col items-center gap-2">
                 <div class="bg-slate-50 rounded-full flex items-center justify-center w-24 object-contain aspect-auto">
                     <img src="./assets/image/alphaLogo.png" alt="" class="w-full bg-slate-50/80 rounded-full">
                 </div>
-                <h2>ALPHA SPECIALISTS HOSPITAL</h2>
+                <h2 class="text-2xl font-bold montserrat-alternates-bold text-center">ALPHA SPECIALISTS HOSPITAL</h2>
+                <div class="">
+                    <p class="text-sm">5, Muyiwa Sanda Street, Alegongo Estate, Akobo, Ibadan.</p>
+                </div>
             </div>
-            <div class=""></div>
+            <div class="flex flex-col items-start justify-start">
+                <div class="p-2 border-b-2 border-orange-400 w-fit ">
+                    <h3 class="capitalize ">Quick Links</h3>
+                </div>
+                <div class="">
+                    <ul class="flex flex-col justify-items-stretch items-start h-full">
+                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Home">Home</a></li>
+                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#About">About Us</a></li>
+                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Services">Our Services</a></li>
+                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Team">The Team</a></li>
+                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Testimony">Testimony</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class=""></div>
 
         </div>
