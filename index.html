@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    <title>Alpha Specialist Hospital</title>
 </head>
 <body class="roboto-regular relative">
@@ -68,7 +69,7 @@
         <div class="w-full max-w-[1240px] h-full mx-auto">
             <!-- hero text area -->
             <div class="flex flex-col md:flex-row md:justify-around justify-center items-center text-center md:text-left ">
-                <div class="w-full h-full md:w-1/2 px-2">
+                <div class="w-full h-full md:w-1/2 px-2" data-aos="fade-right" data-aos-duration="2000">
                     <h2 class="capitalize text-2xl md:text-5xl my-8 md:mt-18 text-slate-900 kreon-regular">Providing You with the best Care you Deserve</h2>
                     <p class="mb-6 text-slate-900">We provide world class healthcare delivery system aimed at giving you the best experience. With our seamless insurance policy, healthcare services remains affordable. Making your health a priority is what we do best.</p>
                     <div class="flex flex-col items-center md:flex-row my-4">
@@ -76,13 +77,13 @@
                         <button class="border-b-2 py-2 border-b-slate-600 text-slate-600 hover:border-blue-600 hover:text-blue-600">Explore our services</button>
                     </div>
                 </div>
-                <div class="w-[70%] md:w-[50%] mx-auto">
-                    <img src="./assets/image/young doctor.png" alt="" class="w-full flex justify-center items-center">
+                <div class="w-[70%] md:w-[50%] mx-auto" data-aos="fade-up-right">
+                    <img src="./assets/image/young doctor.png" alt="" class="w-full flex justify-center items-center" >
                 </div>
             </div>
             <div class="w-full max-w-[1140px] mx-auto bg-orange-200/20 bg-opacity-60 rounded-lg shadow-md p-4 grid md:grid-cols-3 gap-y-6 gap-1">
                 <!-- card -->
-                <div class="bg-teal-50 flex flex-col space-y-2 rounded-md">
+                <div class="bg-teal-50 flex flex-col space-y-2 rounded-md" data-aos="fade-right">
                     <div class="p-4">
                         <div class="w-14 bg-slate-50 rounded-md -mt-8 p-2 shadow-md mb-3">
                             <img src="./assets/icon/doctors-bag.svg" alt="" class="w-full">
@@ -102,7 +103,7 @@
                 </div>
                 <!-- card -->
                 <!-- card 2-->
-                <div class="bg-orange-50 flex flex-col space-y-2 rounded-md">
+                <div class="bg-orange-50 flex flex-col space-y-2 rounded-md" data-aos="fade-right" data-aos-duration="2000">
                     <div class="p-4">
                         <div class="w-14 bg-slate-50 rounded-md -mt-8 p-2 shadow-md mb-3">
                             <img src="./assets/icon/doctor-male.svg" alt="" class="w-full">
@@ -122,7 +123,7 @@
                 </div>
                 <!-- card -->
                 <!-- card 3 -->
-                <div class="bg-purple-50 flex flex-col space-y-2 rounded-md">
+                <div class="bg-purple-50 flex flex-col space-y-2 rounded-md" data-aos="fade-right" data-aos-duration="3000">
                     <div class="p-4">
                         <div class="w-14 bg-slate-50 rounded-md -mt-8 p-2 shadow-md mb-3">
                             <img src="./assets/icon/ambulance.svg" alt="" class="w-full">
@@ -160,34 +161,34 @@
             </div>
             <div class="w-full mt-12 flex flex-col justify-center items-center space-y-3 mb-4">
                 <!-- about card -->
-                <div class=" flex items-center justify-between bg-teal-400 max-w-[300px] rounded-t-md overflow-hidden">
-                    <div class="w-40">
-                        <img src="./assets/icon/doctor-search.svg" alt="" class="w-full bg-slate-50 p-2">
+                <div class=" flex items-center justify-between bg-teal-400 max-w-[300px] h-[150px] rounded-t-md overflow-hidden" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="w-[150px] h-[150px] ">
+                        <img src="./assets/icon/signpost.svg" alt="" class="w-full bg-slate-50 p-2">
                     </div>
-                    <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2">Founded in <span class="text-xl font-bold ">2017</span></p>
+                    <p class="text-slate-900  md:2xl flex-1 text-center p-2">In Service Since <span class="text-4xl font-bold kreon-bold ">2017</span></p>
                 </div>
                 <div class="flex flex-col-reverse gap-3 sm:flex-row justify-between items-center">
                     <!-- about card -->
-                    <div class=" flex items-center justify-between bg-gray-950 max-w-[300px] rounded-l-md overflow-hidden md:mr-2">
-                        <div class="w-40">
-                            <img src="./assets/icon/hospital.svg" alt="" class="w-full bg-slate-50 p-2">
+                    <div class=" flex items-center justify-between bg-gray-950 max-w-[300px] rounded-l-md overflow-hidden md:mr-2" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="w-[150px] h-[150px] bg-slate-50">
+                            <img src="./assets/icon/protection.svg" alt="" class="w-full bg-slate-50 p-2">
                         </div>
-                        <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2">Accredited by <span>NHIS</span></p>
+                        <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2">Accredited by <span class="text-4xl font-bold kreon-bold ">NHIS</span></p>
                     </div>
                     <!-- about card -->
-                    <div class=" flex flex-row-reverse sm:flex-row items-center justify-between bg-red-400 max-w-[300px] rounded-r-md overflow-hidden">
-                        <div class="w-40">
-                            <img src="./assets/icon/doctor-search.svg" alt="" class="w-full bg-slate-50 p-2">
+                    <div class=" flex flex-row-reverse sm:flex-row items-center justify-between bg-red-400 max-w-[300px] min-w-[260px] rounded-r-md overflow-hidden" data-aos="fade-left" data-aos-duration="2000" >
+                        <div class="w-[150px] h-[150px]">
+                            <img src="./assets/icon/hospital-location.svg" alt="" class="w-full bg-slate-50 p-2">
                         </div>
-                        <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2">Located in <span>IBADAN</span></p>
+                        <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2">Located in <span class="text-4xl font-bold kreon-bold ">IBADAN</span></p>
                     </div>
                 </div>
                 <!-- about card -->
-                <div class=" flex flex-row-reverse sm:flex-row items-center justify-between bg-black max-w-[300px] rounded-b-md overflow-hidden">
-                    <div class="w-40">
-                        <img src="./assets/icon/doctor-search.svg" alt="" class="w-full bg-slate-50 p-2">
+                <div class=" flex flex-row-reverse sm:flex-row items-center justify-between bg-black max-w-[300px] rounded-b-md overflow-hidden" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="w-[150px] h-[150px]">
+                        <img src="./assets/icon/happy-client.svg" alt="" class="w-full bg-slate-50 p-2">
                     </div>
-                    <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2"><span>100K+</span> Happy patients</p>
+                    <p class="text-slate-50 text-xl md:2xl flex-1 text-center p-2"><span class="text-4xl font-bold kreon-bold ">100K+</span> Happy patients</p>
                 </div>
             </div>
         </div>
@@ -524,11 +525,11 @@
     <section class="w-full my-12">
         <div class="w-full max-w-[1040px] round mx-auto  relative overflow-hidden drop-shadow-md">
             <!-- <video src="./assets/video/Liver Biopsy.mp4" autoplay class="absolute w-full max-h-full max-w-[1040px] "></video> -->
-            <div class=" w-full bg-gradient-to-b from-blue-600 to-slate-50 rounded-md overflow-hidden flex flex-col sm:flex-row justifyy-between items-center">
-                <div class="w-1/3 overflow-hidden py-3">
+            <div class=" w-full bg-gradient-to-b from-blue-600 to-orange-50 rounded-md overflow-hidden flex flex-col sm:flex-row justifyy-between items-center">
+                <div class="w-1/3 overflow-hidden py-3" data-aos="fade-right" data-aos-duration="2000">
                     <img src="./assets/icon/doctorCrd.svg" alt="" class="w-2/3">
                 </div>
-                <div class="text-center sm:text-left py-6 px-4 sm:w-2/3">
+                <div class="text-center sm:text-left py-6 px-4 sm:w-2/3" data-aos="fade-left" data-aos-duration="2000">
                     <h3 class="sm:text-4xl font-bold kreon-bold text-slate-900">YOUR HEALTH REMAINS OUR UTMOST PRIORITY</h3>
                     <p class="text-slate-50 text-sm sm:text-lg">Keep your health in check by ensuring regular clinic visits for check ups</p>
                 </div>
@@ -552,25 +553,25 @@
                         <ul class="">
                             <div class="bg-orange-300 my-1 p-4  bg-opacity-10">
                                 <li class="flex items-center w-auto">
-                                    <img src="./assets/icon/ambulance.svg" alt="" class="w-5">
+                                    <img src="./assets/icon/doctors-bag.svg" alt="" class="w-5 mr-3">
                                     <p>Quality home visit care for special needs patients</p>
                                 </li>
                             </div>
                             <div class="bg-teal-300 my-4 p-4 rounded-md bg-opacity-10">
                                 <li class="flex  items-center">
-                                    <img src="./assets/icon/ambulance.svg" alt="" class="w-5">
+                                    <img src="./assets/icon/ambulance.svg" alt="" class="w-5 mr-3">
                                     <p>Special ambulance service on request for all our registered patients</p>
                                 </li>
                             </div>
                             <div class="bg-yellow-300 my-4 p-4 rounded-md bg-opacity-10">
                                 <li class="flex  items-center">
-                                    <img src="./assets/icon/ambulance.svg" alt="" class="w-5">
+                                    <img src="./assets/icon/protection.svg" alt="" class="w-5 mr-3">
                                     <p>Reasonable healthcare option plans for out-of-pocket patients</p>
                                 </li>
                             </div>
                             <div class="bg-indigo-300 my-4 p-4 rounded-md bg-opacity-10">
                                 <li class="flex  items-center">
-                                    <img src="./assets/icon/ambulance.svg" alt="" class="w-5">
+                                    <img src="./assets/icon/phone-volume-solid.svg" alt="" class="w-5 mr-3">
                                     <p>We cannot wait to give you a splendid care</p>
                                 </li>
                             </div>
@@ -823,6 +824,75 @@
     </section>
     <!-- END OUR FAQ SECTION -->
 
+    <section class="w-full">
+        <div class="w-full bg-orange-500  relative">
+            <div class="flex flex-col sm:flex-row">
+                <div class="h-full w-full sm:w-1/2  bg-green-500 absolute top-0 left-0 mix-blend-multiply" style="background: url(./assets/image/cdc-_N7I1JyPYJw-unsplash.jpg); background-position: top; background-size: cover; background-repeat: no-repeat;"></div>
+                <div class="w-full sm:w-1/2 object-contain ">kel
+                </div>
+                <div class="w-full sm:w-1/2 pl-4 sm:pl-1 py-6 bg-slate-50">
+                    <div class="py-2 text-2xl text-center border-b-2 border-orange-200 ">
+                        <h3 class="capitalize kreon-bold">
+                            Contact Us
+                        </h3>
+                    </div>
+                    <div class="text-center text-sm mt-3">
+                        <p class="">We would be glad to attend to your request</p>
+                    </div>
+                    <form id="contactform" action="" class="w-full flex flex-col items-center">
+                        <fieldset class="w-[60%] flex flex-col items-center  px-4 rounded-md bg-slate-50 shadow-lg">
+                            <!-- <legend class="text-xl kreon-regular">Reach Out!</legend> -->
+                            <div class="mt-4 relative space-y-2 pb-4">
+                                <div class="flex justify-between items-center">
+                                    <label for="username" class="kreon-regular">Your Name:</label>
+                                    <small id="nameError" class="hidden text-red-500">Please enter your name
+                                        <i class="fas fa-exclamation-circle"></i>
+                                    </small>
+                                    <small id="nameTrue" class=" text-green-500 hidden">
+                                        <i class="fas fa-check-circle"></i>
+                                    </small>
+                                </div>
+                                <input type="text" name="username" id="username" required class="block py-1 px-2 min-w-[260px] w-[320px] outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500" placeholder="John Doe" >
+                            </div>
+                            <div class="my-2 space-y-2">
+                                <div class="flex justify-between items-center">
+                                    <label for="email" class="kreon-regular">Email:</label>
+                                    <small id="nameError" class="hidden text-red-500">Please enter your name
+                                        <i class="fas fa-exclamation-circle"></i>
+                                    </small>
+                                    <small id="nameTrue" class=" text-green-500 hidden">
+                                        <i class="fas fa-check-circle"></i>
+                                    </small>
+                                </div>
+                                <input type="email" name="email" id="email" placeholder="abc@xyz.com" required class="block min-w-[260px] w-[320px] py-1 px-2 outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500" >
+                            </div>
+                            <div class="my-4 space-y-2">
+                                <label for="registered" class="kreon-regular capitalize">Are you registered with us?</label>
+                                <select name="registered" id="registered" class="min-w-[260px] w-[320px] block py-2 px-2 outline-none rounded-sm text-md text-slate-900">
+                                    <div class="">
+                                        <option value="" class="">Please select</option>
+                                        <option value="" class="">Yes</option>
+                                        <option value="" class="">No</option>
+                                    </div>
+                                </select>
+                            </div>
+                            <div class="my-2 space-y-2">
+                                <label for="username" class="kreon-regular">Message:</label>
+                                <!-- <input type="t" name="username" id="username" class="block py-1 px-2 outline-none rounded-sm"> -->
+                                <textarea name="message" id="message" cols="30" rows="4" class="block py-1 px-2 outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500"></textarea>
+                            </div>
+                            <button class="buttonSolidBlue w-full my-2">Submit</button>
+                        </fieldset>
+                    </form>
+                    <div class="flex justify-center items-center my-6 text-center w-full">
+                        <p>Do you want to book for a session?</p>
+                        <button class="text-blue-600 ml-1 text-sm">Book here!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- START OUR Footer SECTION -->
     <section class="w-full bg-blue-600">
         <div class="w-full max-w-[1040px]  text-slate-50 mx-auto flex flex-col justify-between items-center md:flex-row ">
@@ -855,5 +925,7 @@
     </section>
     <!-- END OUR Footer SECTION -->
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 </body>
 </html>

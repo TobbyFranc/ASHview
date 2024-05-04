@@ -62,5 +62,34 @@ removeServiceDetails.addEventListener("click", ()=>{
 
 
 
-// SWIPER JS
+// FORM
 
+let contactForm = document.getElementById("contactform")
+let userName = document.getElementById("username")
+let userNameError = document.getElementById("nameError")
+let userNameTrue = document.getElementById("nameTrue")
+
+
+userName.addEventListener("", ()=>{
+    console.log(83)
+
+    console.log(userName.value)
+
+
+})
+
+contactForm.addEventListener("submit", (e)=>{
+
+    console.log(44)
+
+    e.preventDefault()
+    // username Checker
+
+    if(userName.value == ""){
+        userNameError.style.display = "block"
+        userNameTrue.style.display = "hidden"
+    } else{
+        userName.style.display = "hidden"
+        userNameTrue.style.display = "block"
+    }
+})
