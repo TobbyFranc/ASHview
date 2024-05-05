@@ -2,16 +2,17 @@ console.log(2343);
 
 let menuBar = document.getElementById("menuBar")
 let mobileMenu = document.getElementById("mobile_menu");
-let barMenu = document.getElementsByClassName(".bar")
+let barMenu = document.getElementById("bar")
 let crossBarMenu = document.getElementsByClassName("crossBar")
 let moboLink = document.querySelectorAll(".moboNav")
+
+// MENUBARS
 
 menuBar.addEventListener("click", (e)=>{
     // toggle menu items
     mobileMenu.classList.toggle("show");
     // changeMenu bar to cross
-    barMenu.style.display = "hidden";
-    // crossBarMenu.style.display = "block"
+    barMenu.classList.toggle("fa-times")
 })
 
 
@@ -93,3 +94,9 @@ contactForm.addEventListener("submit", (e)=>{
         userNameTrue.style.display = "block"
     }
 })
+
+// CONTACT AND BOOKING FORM
+
+let imgContact = document.getElementById("imgContact");
+let bookSession = document.getElementById("bookSession");
+let contactRequestBtn = document.getElementById("contactRequestBtn");

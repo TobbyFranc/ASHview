@@ -33,19 +33,18 @@
             <div class="flex justify-between items-center">
                 <button class="buttonSolidBlue">Contact Us</button>
             </div>
-            <div class="w-5 md:hidden" id="menuBar">
-                <img src="./assets/icon/bars-solid.svg" alt="" class="bar" >
-                <img src="./assets/icon/doctors-bag.svg" alt="" class="crossBar hidden">
+            <div class="w-5 md:hidden cursor-pointer" id="menuBar">
+                <i id="bar" class="fas fas fa-bars"></i>
             </div>
         </nav>
         <!-- Mobile Nav -->
-        <div id="mobile_menu" class="h-lvh w-full bg-slate-50 absolute -left-[3000px] transition-all md:hidden border-t-2 ">
+        <div id="mobile_menu" class="h-lvh w-full bg-slate-50 absolute -left-[3000px] transition-all duration-300 ease-in-out md:hidden border-t-2">
             <ul class="flex flex-col justify-between items-center w-full h-[400px] ml-[30px]">
-                <li class="hover:text-blue-400 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600"><a href="/" class="flex justify-between items-center"><img src="./assets/icon/hospital(2).svg" alt="" class="w-6 text-slate-50 mr-2"> Home</a></li>
-                <li class="hover:text-blue-400 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600"><a href="/" class="flex justify-between items-center"><img src="./assets/icon/doctor-questions.svg" alt="" class="w-8 text-slate-50 mr-2"> About Us</a></li>
-                <li class="hover:text-blue-400 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600"><a href="/" class="flex justify-between items-center"><img src="./assets/icon/emergency-call.svg" alt="" class="w-6 text-slate-50 mr-2"> Our Services</a></li>
-                <li class="hover:text-blue-400 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600"><a href="/" class="flex justify-between items-center"><img src="./assets/icon/hospital-solid.svg" alt="" class="w-6 text-slate-50 mr-2"> The Team</a></li>
-                <li class="hover:text-blue-400 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600"><a href="/" class="flex justify-between items-center"><img src="./assets/icon/hospital-solid.svg" alt="" class="w-6 text-slate-50 mr-2"> Testimonial</a></li>
+                <li class="hover:text-blue-600 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600 border-b-2 border-b-slate-100"><a href="/" class="flex justify-between items-center"><i class="mr-2 fas fa-hospital"></i> Home</a></li>
+                <li class="hover:text-blue-600 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600 border-b-2 border-b-slate-100"><a href="/" class="flex justify-between items-center"><i class="mr-2 fas fa-hospital-user"></i> About Us</a></li>
+                <li class="hover:text-blue-600 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600 border-b-2 border-b-slate-100"><a href="/" class="flex justify-between items-center"><i class="mr-2 fas fas fa-hand-holding-medical"></i> Our Services</a></li>
+                <li class="hover:text-blue-600 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600 border-b-2 border-b-slate-100"><a href="/" class="flex justify-between items-center"><i class="mr-2 fas fas fa-user-nurse"></i> The Team</a></li>
+                <li class="hover:text-blue-600 moboNav w-full h-full flex justify-start items-center cursor-pointer text-slate-600 border-b-2 border-b-slate-100"><a href="/" class="flex justify-between items-center"><i class="mr-2 far fas fa-people-carry"></i> Testimonial</a></li>
             </ul>
             <div class="flex justify-between items-center ml-[30px] mt-4">
                 <button class="buttonSolidBlue">Contact Us</button>
@@ -103,7 +102,7 @@
                 </div>
                 <!-- card -->
                 <!-- card 2-->
-                <div class="bg-orange-50 flex flex-col space-y-2 rounded-md" data-aos="fade-right" data-aos-duration="2000">
+                <div class="bg-orange-50 flex flex-col space-y-2 rounded-md" data-aos="fade-right" data-aos-duration="1000">
                     <div class="p-4">
                         <div class="w-14 bg-slate-50 rounded-md -mt-8 p-2 shadow-md mb-3">
                             <img src="./assets/icon/doctor-male.svg" alt="" class="w-full">
@@ -728,72 +727,72 @@
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class=" bg-green-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class=" question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
 
                     <i class="fa fas fa-plus faqsArrow" style="font-weight: 200;" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-green-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">You can register with us through our website or in-person by walking into any branch of our branches and providing necessary details. To book an appointment with us, <a href="" class="text-blue-600">click here</a></p>
                 </div>
             </div>
             <!-- accordion-card 2-->
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class="question bg-orange-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">When can I see a doctor when I come to the hospital?</p>
 
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-orange-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">Alpha Specialist Hospital run a 24 hour clinic service to all our patients. Anytime you decide to vist ASH, there will always be a doctor ready to attend to your health</p>
                 </div>
             </div>
             <!-- accordion-card 3-->
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class="question bg-teal-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">I lost my hospital card. Can I get another one?</p>
 
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-teal-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">Alpha Specialist Hospital run a 24 hour clinic service to all our patients. Anytime you decide to vist ASH, there will always be a doctor ready to attend to your health</p>
                 </div>
             </div>
             <!-- accordion-card 4-->
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class="question bg-yellow-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">Can I see a doctor without my hospital card?</p>
 
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-yellow-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">Alpha Specialist Hospital run a 24 hour clinic service to all our patients. Anytime you decide to vist ASH, there will always be a doctor ready to attend to your health</p>
                 </div>
             </div>
             <!-- accordion-card 5-->
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class="question bg-violet-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">Is ambulance available for emergencies?</p>
 
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-violet-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">Oh! Yes! We operate emergency ambulance service to attend to emergency cases anytime and anywhere within ibadan. Any emergency? Please call us at: <a href="tel:+2348060010446" class="text-sm text-blue-700 font-bold">0803-ASH-CARE</a></p>
                 </div>
             </div>
             <!-- accordion-card 6-->
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class="question bg-rose-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">Can I work at Alpha ?</p>
 
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-rose-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">Certainly! However, we are currently not recruiting. We will be sure to put it out there when services are required. Do ensure to apply then.</p>
                 </div>
             </div>
             <!-- accordion-card 7-->
@@ -805,41 +804,64 @@
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-green-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
                 </div>
             </div>
             <!-- accordion-card 2-->
             <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
                 <div class="question bg-cyan-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
 
-                    <p class="text-sm question">How do I register with Alpha Specialist Hospital?</p>
+                    <p class="text-sm question">Can I get a medical report?</p>
 
                     <i class="fa fas fa-plus faqsArrow" ></i>
                 </div>
                 <div class="answer p-0 h-0 bg-cyan-400 overflow-hidden">
-                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptatum numquam perferendis impedit doloribus recusandae, sunt eius laborum eos earum ullam facere expedita reprehenderit aliquid commodi inventore quia nihil? Facere quaerat debitis impedit maxime nihil facilis totam dolorum provident dolore.</p>
+                    <p class="text-sm">As long as you are our patient and you have been attended to and certified by one of our doctors, yes!</p>
+                </div>
+            </div>
+            <!-- accordion-card 2-->
+            <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
+                <div class="question bg-cyan-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
+
+                    <p class="text-sm question">Does ASH have surgical theatre?</p>
+
+                    <i class="fa fas fa-plus faqsArrow" ></i>
+                </div>
+                <div class="answer p-0 h-0 bg-cyan-400 overflow-hidden">
+                    <p class="text-sm">Alpha Specialist Hospital has state of the art theatre rooms where major and minor surgeries are performed following due international standards. To check our facilities, click here: <a href="#Facilities" class="text-blue-700 font-bold">Facilities</a></p>
+                </div>
+            </div>
+            <!-- accordion-card 2-->
+            <div class="faqsBox border-2 shadow-md rounded-md overflow-hidden">
+                <div class="question bg-cyan-400 flex justify-between items-center flex-wrap cursor-pointer px-4 py-3">
+
+                    <p class="text-sm question">Can I do CS for delivery?</p>
+
+                    <i class="fa fas fa-plus faqsArrow" ></i>
+                </div>
+                <div class="answer p-0 h-0 bg-cyan-400 overflow-hidden">
+                    <p class="text-sm">Alpha Specialist Hospital offers well controlled delivery services that soothes the patients choice. Vaginal delivery with pain control or CS delivery</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- END OUR FAQ SECTION -->
 
+    <!-- Contact and Booking session section -->
     <section class="w-full">
-        <div class="w-full bg-orange-500  relative">
-            <div class="flex flex-col sm:flex-row">
-                <div class="h-full w-full sm:w-1/2  bg-green-500 absolute top-0 left-0 mix-blend-multiply" style="background: url(./assets/image/cdc-_N7I1JyPYJw-unsplash.jpg); background-position: top; background-size: cover; background-repeat: no-repeat;"></div>
-                <div class="w-full sm:w-1/2 object-contain ">kel
-                </div>
-                <div class="w-full sm:w-1/2 pl-4 sm:pl-1 py-6 bg-slate-50">
+        <div class="w-full bg-slate-50  relative">
+            <div class="flex flex-row-reverse sm:flex-row">
+                <div id="imgContact" class="h-full w-full sm:w-1/2  bg-teal-500 z-10 absolute top-0 bg-blend-overlay" style="background: url(./assets/image/hush-naidoo-jade-photography-ZCO_5Y29s8k-unsplash.jpg); background-position: top; background-size: cover; background-repeat: no-repeat;"></div>
+                <div id="bookSession" class="w-full sm:w-1/2 hidden md:block sm:pl-1 py-6 ">
                     <div class="py-2 text-2xl text-center border-b-2 border-orange-200 ">
                         <h3 class="capitalize kreon-bold">
-                            Contact Us
+                            Book With Us
                         </h3>
                     </div>
                     <div class="text-center text-sm mt-3">
                         <p class="">We would be glad to attend to your request</p>
                     </div>
-                    <form id="contactform" action="" class="w-full flex flex-col items-center">
+                    <form id="bookingForm" action="" class="w-full flex flex-col items-center">
                         <fieldset class="w-[60%] flex flex-col items-center  px-4 rounded-md bg-slate-50 shadow-lg">
                             <!-- <legend class="text-xl kreon-regular">Reach Out!</legend> -->
                             <div class="mt-4 relative space-y-2 pb-4">
@@ -867,6 +889,88 @@
                                 <input type="email" name="email" id="email" placeholder="abc@xyz.com" required class="block min-w-[260px] w-[320px] py-1 px-2 outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500" >
                             </div>
                             <div class="my-4 space-y-2">
+                                <label for="registered" class="kreon-regular capitalize">Which specialist doctor ?</label>
+                                <select name="registered" id="registered" class="min-w-[260px] w-[320px] block py-2 px-2 outline-none rounded-sm text-md text-slate-900">
+                                    <div class="">
+                                        <option value="" class="" selected>I am not sure</option>
+                                        <option value="" class="">Obstetrics</option>
+                                        <option value="" class="">Gynaecology</option>
+                                        <option value="" class="">Surgery</option>
+                                        <option value="" class="">Paediatrics</option>
+                                        <option value="" class="">Medicine</option>
+                                        <option value="" class="">Others</option>
+                                    </div>
+                                </select>
+                            </div>
+                            <!-- <legend class="text-xl kreon-regular">Reach Out!</legend> -->
+                            <div class="hidden mt-4 relative space-y-2 pb-4">
+                                <div class="flex justify-between items-center">
+                                    <label for="username" class="kreon-regular">State the prefered specialist:</label>
+                                    <small id="nameError" class="hidden text-red-500">Please enter the specialty
+                                        <i class="fas fa-exclamation-circle"></i>
+                                    </small>
+                                    <small id="nameTrue" class=" text-green-500 hidden">
+                                        <i class="fas fa-check-circle"></i>
+                                    </small>
+                                </div>
+                                <input type="text" name="username" id="username" required class="block py-1 px-2 min-w-[260px] w-[320px] outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500" placeholder="John Doe" >
+                            </div>
+                            <!-- jeke -->
+                            <div class="my-2 space-y-2">
+                                <label for="username" class="kreon-regular">Message:</label>
+                                <!-- <input type="t" name="username" id="username" class="block py-1 px-2 outline-none rounded-sm"> -->
+                                <textarea name="message" id="message" cols="30" rows="4" class="block py-1 px-2 outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500"></textarea>
+                            </div>
+                            <button class="buttonSolidBlue w-full my-2">Submit</button>
+                        </fieldset>
+                    </form>
+                    <div class="flex justify-center items-center my-6 text-center w-full text-xs">
+                        <p>Have enquiries to make?</p>
+                        <button id="contactRequestBtn" class="text-blue-600 ml-1 ">Contact us!</button>
+                    </div>
+                </div>
+                <!-- contact -->
+                <div id="reachOut" class="w-full sm:w-1/2 pl-4 sm:pl-1 py-6 bg-slate-50">
+                    <div class="py-2 text-2xl text-center border-b-2 border-orange-200 ">
+                        <h3 class="capitalize kreon-bold">
+                            Contact Us
+                        </h3>
+                    </div>
+                    <div class="text-center text-sm mt-3">
+                        <p class="">We would be glad to attend to your request</p>
+                    </div>
+                    <form id="contactform" action="" class="w-full flex flex-col items-center">
+                        <fieldset class="w-[60%] flex flex-col items-center  px-4 rounded-md bg-slate-50 shadow-lg">
+                            <!-- <legend class="text-xl kreon-regular">Reach Out!</legend> -->
+                            <div class="mt-4 relative space-y-2 pb-4">
+                                <div class="flex justify-between items-center">
+                                    <label for="username" class="kreon-regular">Your Name:
+                                        <i class="fas fas fa-star-of-life text-red-500 text-sm"></i>
+                                    </label>
+                                    <small id="nameError" class="hidden text-red-500">Please enter your name
+                                        <i class="fas fa-exclamation-circle"></i>
+                                    </small>
+                                    <small id="nameTrue" class=" text-green-500 hidden">
+                                        <i class="fas fa-check-circle"></i>
+                                    </small>
+                                </div>
+                                <input type="text" name="username" id="username" required class="block py-1 px-2 min-w-[260px] w-[320px] outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500" placeholder="John Doe" >
+                            </div>
+                            <div class="my-2 space-y-2">
+                                <div class="flex justify-between items-center">
+                                    <label for="email" class="kreon-regular">Email:
+                                        <i class="fas fas fa-star-of-life text-red-500 text-sm"></i>
+                                    </label>
+                                    <small id="nameError" class="hidden text-red-500">Please enter your name
+                                        <i class="fas fa-exclamation-circle"></i>
+                                    </small>
+                                    <small id="nameTrue" class=" text-green-500 hidden">
+                                        <i class="fas fa-check-circle"></i>
+                                    </small>
+                                </div>
+                                <input type="email" name="email" id="email" placeholder="abc@xyz.com" required class="block min-w-[260px] w-[320px] py-1 px-2 outline-none rounded-sm text-md text-slate-900 focus:outline-blue-500 valid:outline-green-500 invalid:outline-red-500" >
+                            </div>
+                            <div class="my-4 space-y-2">
                                 <label for="registered" class="kreon-regular capitalize">Are you registered with us?</label>
                                 <select name="registered" id="registered" class="min-w-[260px] w-[320px] block py-2 px-2 outline-none rounded-sm text-md text-slate-900">
                                     <div class="">
@@ -884,42 +988,78 @@
                             <button class="buttonSolidBlue w-full my-2">Submit</button>
                         </fieldset>
                     </form>
-                    <div class="flex justify-center items-center my-6 text-center w-full">
+                    <div class="flex justify-center items-center my-6 text-center w-full text-xs">
                         <p>Do you want to book for a session?</p>
-                        <button class="text-blue-600 ml-1 text-sm">Book here!</button>
+                        <button class="text-blue-600 ml-1 ">Book here!</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Contact and Booking session section end -->
+
 
     <!-- START OUR Footer SECTION -->
     <section class="w-full bg-blue-600">
-        <div class="w-full max-w-[1040px]  text-slate-50 mx-auto flex flex-col justify-between items-center md:flex-row ">
-            <div class="flex flex-col items-center gap-2">
-                <div class="bg-slate-50 rounded-full flex items-center justify-center w-24 object-contain aspect-auto">
-                    <img src="./assets/image/alphaLogo.png" alt="" class="w-full bg-slate-50/80 rounded-full">
+        <div class="w-full max-w-[1040px]  text-slate-50 mx-auto ">
+            <div class="flex flex-col items-center gap-2 mb-8">
+                <div class="rounded-full flex items-center w-24 justify-center object-contain aspect-auto mt-4">
+                    <img src="./assets/image/alphaLogo.png" alt="" class="w-full bg-slate-50 rounded-full pr-2">
                 </div>
                 <h2 class="text-2xl font-bold montserrat-alternates-bold text-center">ALPHA SPECIALISTS HOSPITAL</h2>
                 <div class="">
-                    <p class="text-sm">5, Muyiwa Sanda Street, Alegongo Estate, Akobo, Ibadan.</p>
+                    <p class="text-sm text-center">5, Muyiwa Sanda Street, Alegongo Estate, Akobo, Ibadan.</p>
                 </div>
             </div>
-            <div class="flex flex-col items-start justify-start">
-                <div class="p-2 border-b-2 border-orange-400 w-fit ">
-                    <h3 class="capitalize ">Quick Links</h3>
+            <hr>
+            <div class=" flex flex-wrap justify-between items-start gap-8">
+                <!-- jsj -->
+                <div class="flex flex-col items-start justify-start">
+                    <div class="py-2 border-b-2 border-orange-400 w-fit ">
+                        <h3 class="capitalize ">Navigation</h3>
+                    </div>
+                    <div class="">
+                        <ul class="flex flex-col justify-items-stretch items-start h-full">
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Home"><i class="mr-2 fas fa-hospital"></i>Home</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#About"><i class="mr-2 fas fa-hospital-user"></i>About Us</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Services"><i class="mr-2 fas fas fa-hand-holding-medical"></i>Our Services</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Team"><i class="mr-2 fas fas fa-user-nurse"></i>The Team</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Testimony"><i class="mr-2 far fas fa-people-carry"></i>Testimony</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="">
-                    <ul class="flex flex-col justify-items-stretch items-start h-full">
-                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Home">Home</a></li>
-                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#About">About Us</a></li>
-                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Services">Our Services</a></li>
-                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Team">The Team</a></li>
-                        <li class="hover:text-orange-400 my-3 h-full flex justify-center items-center text-slate-50"><a href="#Testimony">Testimony</a></li>
-                    </ul>
+                <!-- Follow Us -->
+                <div class="flex flex-col items-start justify-start">
+                    <div class="py-2 border-b-2 border-orange-400 w-fit ">
+                        <h3 class="capitalize ">Follow Us</h3>
+                    </div>
+                    <div class="">
+                        <ul class="flex flex-col justify-items-stretch items-start h-full">
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Home"> <i class="fas fab fa-facebook mr-2"></i>Facebook</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#About"><i class="fab fab fa-twitter mr-2"></i>Twitter</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Services"><i class="fas fab fab fa-instagram mr-2"></i>Instagram</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Team"><i class="fas fab fab fa-linkedin mr-2"></i>Linkdln</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Find Us -->
+                <div class="flex flex-col items-start justify-start">
+                    <div class="py-2 border-b-2 border-orange-400 w-fit ">
+                        <h3 class="capitalize ">Get Help</h3>
+                    </div>
+                    <div class="">
+                        <ul class="flex flex-col justify-items-stretch items-start h-full">
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Home"><i class="far fa-question-circle mr-2"></i>FAQ</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#About"><i class=" far fa-address-book mr-2"></i>Contact Form</a></li>
+                            <li class="hover:text-orange-400 text-sm my-3 h-full flex justify-center items-center text-slate-50"><a href="#Services"><i class=" far fa-map mr-2"></i>Get Directions</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class=""></div>
+            <hr>
+            <div class="text-center py-4">
+                <p> All rights reserved 2024</p>
+            </div>
 
         </div>
     </section>
